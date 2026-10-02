@@ -1,0 +1,35 @@
+# Dataset (do not commit images)
+dataset/
+data/
+
+# Model checkpoints / weights
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Logs / experiment tracking
+*.log
+runs/
+wandb/
