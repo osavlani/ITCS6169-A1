@@ -21,8 +21,8 @@ pip install torch torchvision
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu<x>
 # x = your driver's CUDA version
 ```
-
 ## Dataset
+```
 dataset/
 train/
 ...
@@ -30,6 +30,7 @@ test/
 ...
 test2/
 ...
+```
 
 Dataset folder should be named `data` as per code requirements. The `data` folder should be placed in the same directory as the Python notebook.
 
